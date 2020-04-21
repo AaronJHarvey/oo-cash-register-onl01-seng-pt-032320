@@ -8,6 +8,12 @@ def initialize(discount = 0)
 end
 
 def add_item(title, price, quantity = 1)
+  number = 1 
   @total += price * quantity
+  items << title 
+  while quantity > number 
+  
+  
+    
 end
 end
