@@ -6,3 +6,4 @@ def initialize(discount = 0)
   items = []
   @discount = discount
 end
+end
