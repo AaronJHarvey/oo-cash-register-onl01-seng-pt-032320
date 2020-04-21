@@ -13,5 +13,6 @@ def add_item(title, price, quantity = 1)
   quantity.times do
 end
 
-def 
+def apply_discount 
+end
 end
