@@ -14,7 +14,11 @@ end
 
 def apply_discount
   if discount != 0
- @total = (total * ((100 - discount)/100)).to_i
+ @total = (total * ((100.0 - discount.to_f)/100)).to_i
+ puts "After discount your total is #{@total}"
+ else 
+   puts 
+  "There is no discount to apply"
 end
 end
 
