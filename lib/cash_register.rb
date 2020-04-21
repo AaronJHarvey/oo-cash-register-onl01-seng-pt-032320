@@ -13,7 +13,7 @@ end
 end
 
 def apply_discount
-  @total = total + ((price*@discount) * quantity) 
+  @total = total * @discount
 end
 
 def items 
