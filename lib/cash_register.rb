@@ -1,5 +1,5 @@
 class CashRegister
 
-def initialize(total = zero)
+def initialize(total = 0)
 
 end
