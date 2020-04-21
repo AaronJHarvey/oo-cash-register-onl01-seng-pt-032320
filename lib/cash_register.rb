@@ -6,8 +6,7 @@ def initialize(discount = 0)
   @discount = discount
   @items = []
   
-  def total 
-    @total
-  end
+ def add_item(title, price)
+   @total = "total + #{price}
 end
 end
