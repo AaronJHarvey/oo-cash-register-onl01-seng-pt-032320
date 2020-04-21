@@ -12,7 +12,7 @@ end
    @items << title 
 end
 
-def apply_discount(price)
+def apply_discount
   
  @total = total * discount 
 end
