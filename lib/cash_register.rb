@@ -8,5 +8,6 @@ def initialize(discount = 0)
   
   def total 
     @total
+  end
 end
 end
