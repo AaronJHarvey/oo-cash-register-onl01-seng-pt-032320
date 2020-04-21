@@ -13,4 +13,8 @@ def add_item(title, price, quantity = 1)
     @items << title 
 end
 end
+
+def apply_discount
+  if discount !=0 
+    @total = total - (100.0 * (discount.to_f/100))
 end
