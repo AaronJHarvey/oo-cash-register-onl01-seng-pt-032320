@@ -14,7 +14,7 @@ end
 
 def apply_discount
   if discount != 0
- @total = total - (total * discount) 
+ @total = @total - (100 * discount) 
 end
 
 def items 
