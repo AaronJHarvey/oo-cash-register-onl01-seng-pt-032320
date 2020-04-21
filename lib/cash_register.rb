@@ -12,8 +12,9 @@ end
    @items << title 
 end
 
-def apply_discount
-  @total = total * @discount
+def apply_discount(price)
+  
+ @total = total * discount 
 end
 
 def items 
