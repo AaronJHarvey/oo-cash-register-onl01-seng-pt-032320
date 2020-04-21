@@ -19,3 +19,4 @@ def apply_discount
     @total = total - (100.0 * (discount.to_f/100)).to_i
   end
 end
+end
